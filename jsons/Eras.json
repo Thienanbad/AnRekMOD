@@ -227,5 +227,36 @@
             "Starting in this era disables religion",
             "Every major Civilization gains a spy once a civilization enters this era"
         ]
-    }
+    },
+{
+    "name": "Magic Era",
+        "researchAgreementCost": 400,
+        "startingSettlerCount": 3,
+        "startingWorkerCount": 3,
+        "startingMilitaryUnitCount": 5,
+        "startingMilitaryUnit": "Marine",
+        "startingGold": 400,
+        "startingCulture": 600,
+        "settlerPopulation": 5,
+        "settlerBuildings": ["Monument","Granary","Lighthouse","Market","Workshop","Amphitheater","Barracks","Library","Colosseum","Zoo","Bank"],
+        "startingObsoleteWonders": [
+            "Temple of Artemis", "Stonehenge", "The Great Library", "The Pyramids", "Mausoleum of Halicarnassus", "Statue of Zeus",
+            "The Great Lighthouse", "Hanging Gardens", "Terracotta Army", "The Oracle", "Great Mosque of Djenne", "Parthenon", "Petra", "Great Wall", "Colossus",
+            "Hagia Sophia", "Borobudur", "Chichen Itza", "Huey Teocalli", "Machu Picchu", "Althing", "Angkor Wat", "Alhambra", "Notre Dame",
+            "Sistine Chapel", "Forbidden Palace", "Leaning Tower of Pisa", "Globe Theatre", "Himeji Castle", "Taj Mahal", "Porcelain Tower", "Uffizi", "Red Fort",
+            "The Louvre", "Big Ben", "Neuschwanstein", "Brandenburg Gate",
+            "Eiffel Tower", "Broadway", "Statue of Liberty", "Prora", "Kremlin", "Panama Canal", "Cristo Redentor"
+        ],
+        "baseUnitBuyCost": 1000,
+        "embarkDefense": 30,
+        "startPercent": 80,
+        "citySound": "cityFuture",
+        "iconRGB": [76, 176, 81],
+        "uniques": [
+            "May not generate great prophet equivalents naturally",
+            "May buy [Great Prophet] units for [200] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([100])",
+            "Starting in this era disables religion",
+            "Every major Civilization gains a spy once a civilization enters this era"
+        ]
+}
 ]
